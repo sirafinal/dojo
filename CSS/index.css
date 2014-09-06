@@ -46,7 +46,7 @@ p{
 	display: block;
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
-	color: #e1d74d;
+	color: #81330a;
 	
 }
 hr{
@@ -91,6 +91,6 @@ textarea{
 	width: 100px;
 	margin-bottom: 5px;
 }
-#cuerpo_derecho{
-
+label{
+	color: #81330a;
 }

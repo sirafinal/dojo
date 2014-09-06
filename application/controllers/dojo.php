@@ -44,5 +44,11 @@ class Dojo extends CI_Controller {
 		);
 		$this->load->view('dojo_servicios',$datos);
 	}	
-	
+	public function ubicacion()
+	{
+		$datos=array(
+			'servicios'=>$this->dojo_modelo->traer_todo_servicios(),
+		);
+		$this->load->view('dojo_ubicacion');
+	}		
 }
