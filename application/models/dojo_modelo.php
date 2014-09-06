@@ -12,6 +12,11 @@ class Dojo_modelo extends CI_Model {
 		$consulta=$this->db->query("select * from mensajes ORDER BY idmensajes DESC limit 0,50");
 		return $consulta;
 	}
+	function traer_todo_servicios()
+	{
+		$consulta=$this->db->query("select * from servicio");
+		return $consulta;
+	}	
 	function inserta_mensaje($datos)
 	{
 	

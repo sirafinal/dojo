@@ -22,12 +22,12 @@ class Dojo extends CI_Controller {
 			}
 			else{
 				$this->dojo_modelo->inserta_mensaje($datos);
-				$this->load->view('dojo_index');
+				
 			}
 		
 		}
 		
-		
+		$this->load->view('dojo_index');
 		
 	}
 	public function mensajes()
@@ -37,4 +37,12 @@ class Dojo extends CI_Controller {
 		);
 		$this->load->view('mensaje',$datos);
 	}
+	public function servicios()
+	{
+		$datos=array(
+			'servicios'=>$this->dojo_modelo->traer_todo_servicios(),
+		);
+		$this->load->view('dojo_servicios',$datos);
+	}	
+	
 }

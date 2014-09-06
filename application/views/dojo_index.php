@@ -11,10 +11,10 @@
 			<div id="cuerpo_izquierdo">
 				<div id="flotante">
 					<ul id="menu3">
-						<li style="border-left: 5px solid red;" ><a href="c++"> Servicios</a></li>
-						<li style="border-left: 5px solid #1037ef;"><a href="c++/resueltos"> Ubicacion</a</li>
-						<li style="border-left: 5px solid #4fb013;"><a href="c++/clases"> Cursos</a></li>
-						<li style="border-left: 5px solid #da25d6;"><a href="c++/programas"> Contactanos</a></li>
+						<li style="border-left: 5px solid red;" ><?php echo anchor('Dojo/servicios','Servicios'); ?></li>
+						<li style="border-left: 5px solid #1037ef;"><?php echo anchor('Dojo/ubicacion','Ubicacion'); ?></li>
+						<li style="border-left: 5px solid #4fb013;"><?php echo anchor('Dojo/cursos','Cursos'); ?></li>
+						<li style="border-left: 5px solid #da25d6;"><?php echo anchor('Dojo/contactanos','Contactanos'); ?></li>
 					</ul>
 				</div>
 				<div id="flotante2">
