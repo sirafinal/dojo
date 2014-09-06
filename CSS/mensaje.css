@@ -1,5 +1,5 @@
 body{
-	background-color: #000000;
+	background-color: url(imagen/th.jpg);
 }
 #mensaje{
 	border:2px solid white;
@@ -28,11 +28,11 @@ span{
 }
 p{
 	font-size: 12px;
-	color: #2fff3f;	
+	color: #361d83;	
 	text-align: justify;
 }
 #horafecha{
 	font-size: 9px;
-	color: #eaef10;
+	color: #361d83;
 	text-align: right;
 }

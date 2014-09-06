@@ -3,6 +3,7 @@
 		<title>SIRA DOJO</title>
 		<link rel="stylesheet" type="text/css" href="../../CSS/mensaje.css"/>
 		<META HTTP-EQUIV="REFRESH" CONTENT="5"/>
+		<META charset="utf-8"/>
 	</head>
 	<body>
 			<?php foreach($mensajes->result() as $mensaje){ ?>

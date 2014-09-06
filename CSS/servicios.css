@@ -93,7 +93,10 @@ table{
 th{
 	background-color:#5cb6a4;
 }
-td:hover{
+td{
+	padding-left:20px;
+}
+tr:hover{
 	background-color:#e2c8c2;
 	opacity:0.8;
 	color:#f30c0c;
