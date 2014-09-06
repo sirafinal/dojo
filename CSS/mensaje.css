@@ -1,0 +1,38 @@
+body{
+	background-color: #000000;
+}
+#mensaje{
+	border:2px solid white;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	width: 350px;
+	margin-bottom: 5px;
+}
+#logo{
+	width: 50px;
+	float: left;
+	margin-right: 5px;
+	padding-top:15px;
+}
+#texto{
+	width: 350px;
+}
+span{
+	text-align: center;
+	background-color: #3a706d;
+	display: block;
+	border: 1px solid white;
+	color: white;
+	font-size: 15px;
+}
+p{
+	font-size: 12px;
+	color: #2fff3f;	
+	text-align: justify;
+}
+#horafecha{
+	font-size: 9px;
+	color: #eaef10;
+	text-align: right;
+}
